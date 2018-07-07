@@ -13,6 +13,6 @@ def key_for_min_value(name_hash)
   end
   
   name_hash.each do |k, v|
-    return k if v = min_value
+    return k if v == min_value
   end
 end
